@@ -29,9 +29,8 @@ namespace FactoryMethod
                     break;
             }
             
-            if (transport != null) {
+            if (transport != null) 
                 transport.StartTransport();
-            }
 
             Console.ReadLine();
         }

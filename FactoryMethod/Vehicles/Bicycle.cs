@@ -2,11 +2,11 @@ namespace FactoryMethod.Vehicles
 {
     public class Bicycle : IVehicle
     {
-        public void GetCargo() => Console.Write("Getting order...");
+        public void GetSubject() => Console.Write("Getting order...");
 
         public void StartRoute()
         {
-            GetCargo();
+            GetSubject();
             Console.Write(" start route.");
         }
     }

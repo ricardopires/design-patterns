@@ -7,11 +7,11 @@ namespace FactoryMethod.Vehicles
 {
     public class Motorcycle : IVehicle
     {
-        public void GetCargo() => Console.Write("Getting cargo...");
+        public void GetSubject() => Console.Write("Getting cargo...");
 
         public void StartRoute()
         {
-            GetCargo();
+            GetSubject();
             Console.Write(" start route.");
         }
     }

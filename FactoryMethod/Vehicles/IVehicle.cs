@@ -2,7 +2,7 @@ namespace FactoryMethod.Vehicles
 {
     interface IVehicle
     {
-        void GetCargo();
+        void GetSubject();
         void StartRoute();
     }
 }
